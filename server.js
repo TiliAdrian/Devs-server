@@ -3,8 +3,11 @@ const connectDB = require("./config/database");
 
 const app = express();
 
-//Connect to Database
+// Connect to Database
 connectDB();
+
+// Init middleware
+app.use(express.json());
 
 //Define routes
 app.use("/api/users", require("./routes/api/users"));
