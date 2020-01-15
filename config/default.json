@@ -2,5 +2,6 @@
   "mongoURI": "mongodb://localhost/test",
   "jwtSecret": "test",
   "githubClientId": "6028c4f9974ade60fdc6",
-  "githubSecret": "4803f9de37884ba73c72c1c4dc18d3929a02e492"
+  "githubSecret": "4803f9de37884ba73c72c1c4dc18d3929a02e492",
+  "test": "asd"
 }
